@@ -1,66 +1,37 @@
+/* styles.css */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family:  Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+    font-weight: normal;
+    margin: 0;
+    padding-left: 10%;
+    padding-right:10%;
+    padding-top: 3%;
+    background-color: #f9fff5;
+    color: #333;
 }
 
-.wrapper {
+.container {
     display: flex;
-    width: 100%;
-    align-items: stretch;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 20px;
 }
 
-#sidebar {
-    min-width: 250px;
-    max-width: 250px;
-    background: #7386D5;
-    color: #fff;
-    transition: all 0.3s;
+.headername {
+    font-weight: bold;
+    font-size: 26px;
 }
 
-#sidebar.active {
-    margin-left: -250px;
+.header-right a {
+    text-decoration: none;
+    color: #5d8d5d;
+    text-align: right;
+    padding: 13px;
 }
 
-#sidebar .sidebar-header {
-    padding: 20px;
-    background: #6d7fcc;
-}
-
-#sidebar ul.components {
-    padding: 20px 0;
-    border-bottom: 1px solid #47748b;
-}
-
-#sidebar ul p {
-    color: #fff;
-    padding: 10px;
-}
-
-#sidebar ul li a {
-    padding: 10px;
-    font-size: 1.1em;
-    display: block;
-}
-
-#sidebar ul li a:hover {
-    color: #7386D5;
-    background: #fff;
-}
-
-ul ul a {
-    font-size: 0.9em !important;
-}
-
-#content {
-    width: 100%;
-    padding: 20px;
-    min-height: 100vh;
-    transition: all 0.3s;
-}
-
-.navbar {
-    padding: 10px 10px;
-    background: #fff;
-    border: none;
-    border-radius: 0;
-    margin-bottom: 10px;
+.header-right a:hover, a.active {
+    text-decoration: underline;
+    color: #31402f;
+    font-weight: bold;
 }
