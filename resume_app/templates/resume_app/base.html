@@ -11,7 +11,7 @@
     <main>
         <div class="container">
             <div class="header-left">
-                <p class="headername">My Name</p>
+                <p class="headername">Danielle Grace Dignadice</p>
             </div>
             <nav class="header-right">
                 <a href="{% url 'home' %}" class="{% if request.path == '/' %}active{% endif %}">Home</a>
@@ -20,6 +20,9 @@
                 <a href="{% url 'portfolio' %}" class="{% if request.path == '/portfolio/' %}active{% endif %}">Portfolio</a>
             </nav>
         </div> 
+
+        <br>
+        <br>
 
         {% block content %}
         {% endblock %}

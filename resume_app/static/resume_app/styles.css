@@ -5,7 +5,6 @@ body {
     margin: 0;
     padding-left: 10%;
     padding-right:10%;
-    padding-top: 3%;
     background-color: #f9fff5;
     color: #333;
 }
@@ -20,7 +19,7 @@ body {
 
 .headername {
     font-weight: bold;
-    font-size: 26px;
+    font-size: 22px;
 }
 
 .header-right a {
@@ -34,4 +33,79 @@ body {
     text-decoration: underline;
     color: #31402f;
     font-weight: bold;
+}
+
+.profile-picture {
+    border-radius: 100%;
+    width: auto;
+    max-height: 250px;
+    margin-right: 20px;
+}
+
+
+.title {
+    font-size: 75px;
+}
+
+.subtitle {
+    font-size: 50px;
+    color: #5d8d5d
+}
+
+.summary {
+    display: flex;
+    align-items: center;
+}
+
+.summary-text {
+    font-size: 20px;
+    color: #333;
+}
+
+.summary-text h1, .summary-text h2, .summary-text p {
+    margin: 0;
+    line-height: 1.2; /* Adjust line height for tighter spacing */
+}
+
+.line_break {
+    text-align: center;
+}
+
+.gallery {
+    margin-top: 20px;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px; /* Add space between projects */
+    padding: 10px;
+}
+
+.project-text {
+    flex: 1;
+    margin-right: 5px; /* Space between text and image */
+}
+
+.project-text h3 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.project-text p {
+    font-size: 18px;
+    color: #555; /* A subtle color for the description */
+}
+
+.project-image {
+     flex: 1; 
+    text-align: right;
+    
+}
+
+.project-image img {
+    max-width: 250px;
+    height: auto;
+    border-radius: 0px; /* Optional: adds rounded corners to the image */
 }
