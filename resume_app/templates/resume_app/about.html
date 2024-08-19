@@ -1,16 +1,55 @@
 {% extends 'resume_app/base.html' %}
-{% block title %}Aabout{% endblock %}
+{% block title %}About{% endblock %}
 {% block content %}
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>About</title>
-</head>
-<body>
-    <h1>About</h1>
-    <p>Welcome to the home page. This is a simple filler page to check rendering.</p>
-</body>
-</html>
+{% include 'resume_app/summary.html' %}
+<br>
+<p class="line_break">_____________________________________________________________________________________________________</p>
+<br>
+
+<div>
+    <h2>Contact</h2>
+    <ul>
+        <li>Phone: 0966 435 5375</li>
+        <li>Email: 202180186@psu.palawan.edu.ph</li>
+    </ul>
+    
+    <h2>Technical Skills</h2>
+    <ul>
+        <li>Figma</li>
+        <li>Photoshop</li>
+        <li>Canva</li>
+        <li>HTML and CSS</li>
+        <li>Multimedia Design</li>
+    </ul>
+    
+    <h2>Relevant Experience</h2>
+    <ul>
+        <li>First Place in the Computer Studies Department’s 1st UI/UX Design Competition - December 20, 2023</li>
+        <li>Society of Information Technology Enthusiasts - January 2023 - Present</li>
+    </ul>
+    
+    <h2>Soft Skills</h2>
+    <ul>
+        <li>Leadership</li>
+        <li>Teamwork</li>
+        <li>Problem Solving</li>
+        <li>Client Interaction</li>
+    </ul>
+    
+    <h2>Hobbies and Interests</h2>
+    <ul>
+        <li>Puzzles</li>
+        <li>Data Analysis</li>
+        <li>Psychology</li>
+        <li>Writing</li>
+    </ul>
+    
+    <h2>Educational Background</h2>
+    <ul>
+        <li>Bachelor of Science in Information Technology - Palawan State University (A.Y. 2021 - Present)</li>
+        <li>Science, Technology, Engineering, and Mathematics - Salvacion National Highschool (A.Y. 2019 - 2021)</li>
+    </ul>
+</div>
 
 {% endblock %}

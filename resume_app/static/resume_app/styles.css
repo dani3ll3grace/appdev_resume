@@ -16,6 +16,7 @@ body {
     align-items: center;
     margin: 0 auto;
     font-size: 20px;
+    padding-bottom: 3%;
 }
 
 .headername {
@@ -45,11 +46,11 @@ body {
 
 
 .title {
-    font-size: 75px;
+    font-size: 70px;
 }
 
 .subtitle {
-    font-size: 50px;
+    font-size: 45px;
     color: #5d8d5d;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -198,4 +199,42 @@ a:hover {
     padding: 5px;
     margin: 0;
     font-size: 14px;
+}
+
+/* ABOUT PAGE STYLING */
+/* Add this to your CSS file */
+
+.about-section {
+    text-align: left;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.section ul li i {
+    margin-right: 10px;
+    color: #5d8d5d; /* Adjust color as needed */
+}
+
+/* Ensure that Font Awesome icons are visible */
+.fas {
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
 }
