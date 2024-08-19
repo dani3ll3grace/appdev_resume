@@ -20,10 +20,6 @@
                 <a href="{% url 'portfolio' %}" class="{% if request.path == '/portfolio/' %}active{% endif %}">Portfolio</a>
             </nav>
         </div> 
-
-        <br>
-        <br>
-
         {% block content %}
         {% endblock %}
     </main>

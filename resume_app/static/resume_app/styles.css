@@ -7,6 +7,7 @@ body {
     padding-right:10%;
     background-color: #f9fff5;
     color: #333;
+    padding-bottom: 5%;
 }
 
 .container {
@@ -49,17 +50,14 @@ body {
 
 .subtitle {
     font-size: 50px;
-    color: #5d8d5d
+    color: #5d8d5d;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .summary {
     display: flex;
     align-items: center;
-}
-
-.summary-text {
-    font-size: 20px;
-    color: #333;
 }
 
 .summary-text h1, .summary-text h2, .summary-text p {
@@ -71,10 +69,12 @@ body {
     text-align: center;
 }
 
+/* PROJECTS THUMBNAIL */
 .gallery {
     margin-top: 20px;
 }
 
+/* PROJECTS THUMBNAIL */
 .project {
     display: flex;
     justify-content: space-between;
@@ -108,4 +108,94 @@ body {
     max-width: 250px;
     height: auto;
     border-radius: 0px; /* Optional: adds rounded corners to the image */
+}
+/* BACK BUTTON */
+.back-button {
+    margin-bottom: 20px;
+}
+
+/* LINKS */
+a {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Inherits color from parent element; change to a specific color if needed */
+}
+
+/* Remove underline and change color on hover */
+a:hover {
+    text-decoration: none; /* Removes underline on hover */
+    color: inherit; /* Change color on hover if needed */
+}
+
+
+.back-button a {
+    text-decoration: none;
+    color: #5d8d5d; /* Adjust color as needed */
+    font-size: 18px;
+}
+
+.back-button a:hover {
+    text-decoration: underline;
+    color: #31402f; /* Adjust color as needed */
+}
+
+
+/* SPECIFIC PROJECTS PAGE */
+.project-detail p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.details-main-image img{
+    max-width: 40vw;
+    height: auto;
+}
+
+.details-main-image{
+    display: flex;
+    justify-content: center;
+}
+
+.summ-text{
+    font-size: 24 px;
+    font-weight: semi-bold;
+    text-align: justify;
+}
+
+/* PROJECT GALLERY */
+/* Container for the gallery */
+.project-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 10px; /* Space between grid items */
+    padding: 10px;
+}
+
+/* Individual gallery item */
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the images */
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+/* Style for captions */
+.gallery-item p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+    font-size: 14px;
 }
