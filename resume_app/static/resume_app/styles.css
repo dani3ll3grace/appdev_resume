@@ -1,4 +1,4 @@
-/* styles.css */
+/* MAIN STYLING */
 body {
     font-family:  Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
     font-weight: normal;
@@ -63,7 +63,7 @@ body {
 
 .summary-text h1, .summary-text h2, .summary-text p {
     margin: 0;
-    line-height: 1.2; /* Adjust line height for tighter spacing */
+    line-height: 1.2;
 }
 
 .line_break {
@@ -80,13 +80,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 30px; /* Add space between projects */
+    margin-bottom: 30px; 
     padding: 10px;
 }
 
 .project-text {
     flex: 1;
-    margin-right: 5px; /* Space between text and image */
+    margin-right: 5px; 
 }
 
 .project-text h3 {
@@ -96,7 +96,7 @@ body {
 
 .project-text p {
     font-size: 18px;
-    color: #555; /* A subtle color for the description */
+    color: #555; 
 }
 
 .project-image {
@@ -108,7 +108,6 @@ body {
 .project-image img {
     max-width: 250px;
     height: auto;
-    border-radius: 0px; /* Optional: adds rounded corners to the image */
 }
 /* BACK BUTTON */
 .back-button {
@@ -117,26 +116,19 @@ body {
 
 /* LINKS */
 a {
-    text-decoration: none; /* Removes underline */
-    color: inherit; /* Inherits color from parent element; change to a specific color if needed */
+    text-decoration: none; 
+    color: inherit; 
 }
-
-/* Remove underline and change color on hover */
-a:hover {
-    text-decoration: none; /* Removes underline on hover */
-    color: inherit; /* Change color on hover if needed */
-}
-
 
 .back-button a {
     text-decoration: none;
-    color: #5d8d5d; /* Adjust color as needed */
+    color: #5d8d5d; 
     font-size: 18px;
 }
 
 .back-button a:hover {
     text-decoration: underline;
-    color: #31402f; /* Adjust color as needed */
+    color: #31402f; 
 }
 
 
@@ -163,15 +155,13 @@ a:hover {
 }
 
 /* PROJECT GALLERY */
-/* Container for the gallery */
 .project-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-    gap: 10px; /* Space between grid items */
+    gap: 10px; 
     padding: 10px;
 }
 
-/* Individual gallery item */
 .gallery-item {
     position: relative;
     overflow: hidden;
@@ -179,7 +169,6 @@ a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Style the images */
 .gallery-item img {
     width: 100%;
     height: auto;
@@ -187,7 +176,6 @@ a:hover {
     object-fit: cover;
 }
 
-/* Style for captions */
 .gallery-item p {
     position: absolute;
     bottom: 0;
@@ -202,8 +190,6 @@ a:hover {
 }
 
 /* ABOUT PAGE STYLING */
-/* Add this to your CSS file */
-
 .about-section {
     text-align: left;
     padding: 20px;
@@ -230,11 +216,5 @@ a:hover {
 
 .section ul li i {
     margin-right: 10px;
-    color: #5d8d5d; /* Adjust color as needed */
-}
-
-/* Ensure that Font Awesome icons are visible */
-.fas {
-    font-family: 'Font Awesome 5 Free'; 
-    font-weight: 900;
+    color: #5d8d5d; 
 }
